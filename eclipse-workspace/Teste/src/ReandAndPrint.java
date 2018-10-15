@@ -20,7 +20,7 @@ import weka.core.converters.ArffLoader.ArffReader;
 public class ReandAndPrint {
 	public static BufferedReader readDataFile(String filename) {
 		BufferedReader inputReader = null;
- 
+ 		//Vlw fera top
 		try {
 			inputReader = new BufferedReader(new FileReader(filename));
 		} catch (FileNotFoundException ex) {
